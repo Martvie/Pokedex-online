@@ -1,7 +1,7 @@
 # Pokedex-online
 
 ## Sobre o projeto
-Ola! Esse é um projeto pessoal que estou construindo, se esse readme ainda não foi atualizado é sinal que o projeto ainda não foi concluído, mas você pode acessa-lo no link abaixo e acompanhar como ele está nesse momento:
+Olá! Esse é um projeto pessoal que estou construindo, se esse readme ainda não foi atualizado é sinal que o projeto ainda não foi concluído, mas você pode acessa-lo no link abaixo e acompanhar como ele está nesse momento:
 
 [site do projeto](https://martvie.github.io/Pokedex-online/)
 
@@ -15,3 +15,6 @@ Nesse projeto pretendo praticar tanto habilidades em JavaScript como também hab
 Desenvolver uma pokedex usando HTML e CSS, pretendo fazer uma pokedex completamente no navegador
 * Segunda
 Fazer o consumo da API citada para preencher os dados da pokedéx mediante a consulta do usuário.
+
+# Passo atual
+Construção da pokedex com auxílio do artigo do [oryam](https://dev.to/oryam/css-pokedex-3iln)
