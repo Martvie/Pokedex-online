@@ -1,3 +1,28 @@
+:root {
+    --bg-main-color: #dc0a2d;
+
+    /* colors for pokemons types */
+
+    --bug: #89980e;
+    --dark: #463428;
+    --dragon: #745cdd;
+    --eletric: #f9b413;
+    --fairy: #e190e1;
+    --fighting: #7f331c;
+    --fire: #c72301;
+    --flying: #8e8ec8;
+    --ghost: #654fc7;
+    --grass: #6abe2e;
+    --ground: #d4b257;
+    --ice: #71d5f6;
+    --normal: #c9c7c5;
+    --poison: #964897;
+    --psychic: #ed447e;
+    --rock: #9d853c;
+    --steel: #b5b5c1;
+    --water: #2a8bed;
+}
+
 * {
     margin: 0;
     padding: 0;
