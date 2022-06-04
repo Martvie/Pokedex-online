@@ -17,4 +17,5 @@ Desenvolver uma pokedex usando HTML e CSS, pretendo fazer uma pokedex completame
 Fazer o consumo da API citada para preencher os dados da pokedéx mediante a consulta do usuário.
 
 # Passo atual
-Construção da pokedex com auxílio do artigo do [oryam](https://dev.to/oryam/css-pokedex-3iln)
+Construção da pokedex com auxílio do artigo do [oryam](https://dev.to/oryam/css-pokedex-3iln) seguindo o layout disponibilizado
+![pokedex layout](src/images/layout.jpg)
