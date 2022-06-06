@@ -18,7 +18,7 @@ body {
     flex-direction: column;
 }
 
-.top-lights-container{
+.top-lights-container {
     height: 25%;
     width: 100%;
     display: flex;
@@ -37,7 +37,7 @@ body {
     justify-content: center;
 }
 
-.big-light{
+.big-light {
     height: 8.5rem;
     width: 8.5rem;
     border-radius: 50%;
@@ -75,19 +75,19 @@ body {
     border: 3px solid #000;
 }
 
-.small-light.red{
-background-color: #ff0000;
+.small-light.red {
+    background-color: #ff0000;
 }
 
-.small-light.yellow{
+.small-light.yellow {
     background-color: #fecb65;
 }
 
-.small-light.green{
+.small-light.green {
     background-color: #32cb65;
 }
 
-.small-light .small-dot{
+.small-light .small-dot {
     height: 0.8rem;
     width: 0.8rem;
     border-radius: 50%;
@@ -106,7 +106,7 @@ background-color: #ff0000;
     border: 3px solid #000;
 }
 
-.small-point-container{
+.small-point-container {
     display: flex;
     justify-content: space-between;
     width: 2.5rem;
@@ -114,6 +114,7 @@ background-color: #ff0000;
     align-items: center;
     height: 12%;
 }
+
 .small-point {
     background-color: #ff0000;
     height: 1rem;
@@ -123,16 +124,79 @@ background-color: #ff0000;
 }
 
 .main-screen {
-    background-color:  #98cb98;
+    background-color: #98cb98;
     width: 80%;
     height: 70%;
     border: 3px solid #000;
 }
 
-.main-screen .bottom-container {
- height: 18%;
- width: 80%;
- display: flex;
- align-items: center;
- justify-content: space-between;
+.main-screen-bottom {
+    height: 18%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+br {
+    height: 5rem;
+    width: 5rem;
+    background-color: violet;
+    color: violet;
+}
+
+.bottom-container {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.black-buttom {
+    background-color: #585858;
+    border: 3px solid #000;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.bottom-container .center-screen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2px;
+    grid-template-areas: "red cyan"
+        "screen screen";
+}
+
+.line-buttom {
+    height: 1rem;
+    width: 6rem;
+    border: 3px solid #000;
+    border-radius: 1rem;
+}
+
+.line-buttom.red {
+    background-color: #ff0000;
+    grid-area: red;
+}
+
+.line-buttom.cyan {
+    background-color: #85bdfe;
+    grid-area: cyan;
+}
+
+.center-screen .screen {
+    height: 8rem;
+    width: 12rem;
+    grid-area: screen;
+    border: 3px solid #000;
+    background-color: #3ab47d;
+    border-radius: 5px;
+}
+
+.dpad-area a {
+    height: 2rem;
+    width: 2rem;
+    background-color: #000fff;
 }
