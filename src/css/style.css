@@ -1,6 +1,54 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+.pokedex-left {
+    height: 600px;
+    width: 400px;
+    background-color: var(--bg-main-color);
+}
+
+.top-lights-container{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.big-light-border {
+    background-color: white;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    border: 3px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-light{
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 50%;
+    background-color: #3298cb;
+    border: 3px solid #000;
+    position: relative;
+}
+
+.big-light-dot {
+    position: absolute;
+    background-color: #85bdfe;
+    height: 3rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
 }
