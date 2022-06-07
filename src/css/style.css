@@ -9,9 +9,16 @@ body {
     height: 100vh;
 }
 
-.pokedex-left {
+.pokedex {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pokedex-left,
+.pokedex-right {
     height: 600px;
-    width: 400px;
+    width: 100%;
     background-color: var(--bg-main-color);
     display: flex;
     align-items: center;
