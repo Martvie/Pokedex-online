@@ -31,6 +31,18 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    position: relative;
+}
+
+.svg-contaier {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    transform: translateY(28%);
+}
+
+svg, polyline {
+    width: 500px;
 }
 
 .big-light-border {
