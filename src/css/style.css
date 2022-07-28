@@ -14,12 +14,14 @@ body {
     display: flex;
     flex-direction: row;
     max-width: 800px;
+    align-items: center;
 }
 
 .pokedex-left,
 .pokedex-right {
     height: 600px;
     width: 50%;
+    min-width: 350px;
     background-color: var(--bg-main-color);
     display: flex;
     align-items: center;
@@ -32,17 +34,6 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-}
-
-.svg-contaier {
-    position: absolute;
-    z-index: 5;
-    width: 100%;
-    transform: translateY(28%);
-}
-
-svg, polyline {
-    width: 500px;
 }
 
 .big-light-border {

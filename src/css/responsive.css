@@ -1,0 +1,7 @@
+@media (max-width:950px) {
+    .pokedex {
+        flex-direction: column;
+        max-width: none;
+        background-color: bisque;
+    }
+}
